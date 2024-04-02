@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todos = [];
 let condition = true;
@@ -25,10 +26,3 @@ if (todos.length > 0) {
         console.log(todo);
     });
 }
-else if (todos.length < 0) {
-    console.log("No Todos Found.");
-}
-// else if(todos)
-// else{
-//     console.log("No Todos Found");
-//  }
