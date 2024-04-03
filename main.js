@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("          : WELCOME TO IBAD RAZA'S TODO APP :      ");
 let todos = [];
 let condition = true;
 while (condition) {
